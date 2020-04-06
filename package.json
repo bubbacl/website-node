@@ -3,13 +3,16 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "start": "node src",
     "dev": "nodemon src"
   },
   "license": "MIT",
   "dependencies": {
+    "bulma": "^0.8.1",
     "ejs": "^3.0.2",
     "express": "^4.17.1",
-    "morgan": "^1.10.0"
+    "morgan": "^1.10.0",
+    "now": "^17.1.1"
   },
   "devDependencies": {
     "nodemon": "^2.0.2"
